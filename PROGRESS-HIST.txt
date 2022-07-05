@@ -1,0 +1,21 @@
+
+0.
+git commit -m "O_p_i_s"
+git remote add origin git@github.com:MJInen/Sundae-Club.git
+git push -u origin master (main)
+
+
+1. Utworzenie, poczatkowy commit
+2. -View/langing_page/home_page.html.erb
+    <h1>\/ Sundae Club \/</h1>
+ 
+    -App/controllers/landing_page_conreoller.rb
+    class LandingPageController < ActionController::Base
+        def home_page
+        end
+    end
+
+    -config/routes.rb
+    root "landing_page#home_page"
+
+3. 
