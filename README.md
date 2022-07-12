@@ -15,7 +15,7 @@ Things you may want to cover:
     > Mac 10.15.7
 
 * Configuration
-   > rails new . --database=postgresql
+   > rails new . --database=postgresql\
    > rails db:create
 
 * Database creation
