@@ -19,8 +19,8 @@ Things you may want to cover:
    > rails db:create
 
 * Database creation
-  > brew install postgresql
-  > initdb --locale=C -E UTF-8 /usr/local/var/postgres
+  > brew install postgresql\
+  > initdb --locale=C -E UTF-8 /usr/local/var/postgres\
   > cd 'project directory' && pg_ctl -D /usr/local/var/postgres_SundaeClub -l logfile start
 
 * Database initialization
